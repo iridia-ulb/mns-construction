@@ -21,6 +21,9 @@
         <simple_radios implementation="default" />
       </actuators>
       <sensors>
+        <pipuck_omnidirectional_camera implementation="default" rotation="0" resolution="640,480"
+          tag_medium="tags" directional_led_medium="directional_leds"
+          show_tag_rays="true" show_frustum="true" />
         <simple_radios implementation="default" />
       </sensors>
       <params script="@CMAKE_BINARY_DIR@/pipuck_controller.lua" />
