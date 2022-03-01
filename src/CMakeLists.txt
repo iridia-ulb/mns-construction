@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.12)
-project(argos3_pipuck_ext)
+project(mns-construction)
 
 # Use new policies introduced up to this version
 cmake_policy(SET CMP0042 NEW)
@@ -43,7 +43,7 @@ if(ARGOS_QTOPENGL_FOUND)
   add_library(my_qtopengl_extensions SHARED
     qtopengl_extensions/my_qtopengl_user_functions.h
     qtopengl_extensions/my_qtopengl_user_functions.cpp
-    qtopengl_extensions/qtopengl_pipuck_ext_models.h
+    qtopengl_extensions/qtopengl_pipuck_ext_model.h
     qtopengl_extensions/qtopengl_pipuck_ext.h
     qtopengl_extensions/qtopengl_pipuck_ext.cpp)
   target_link_libraries(my_qtopengl_extensions
