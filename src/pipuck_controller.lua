@@ -14,7 +14,8 @@ end
 
 function reset()
    count = 1
-   robot.differential_drive.set_linear_velocity(-0.05, 0.05)
+   robot.differential_drive.set_linear_velocity(0.025, 0.025)
+   robot.omnidirectional_camera.enable()
 end
 
 function destroy()
