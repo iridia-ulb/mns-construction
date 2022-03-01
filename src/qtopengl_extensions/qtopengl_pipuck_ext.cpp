@@ -1,7 +1,7 @@
 
 #include "../extensions/pipuck_ext/pipuck_ext_entity.h"
 #include "qtopengl_pipuck_ext.h"
-#include "qtopengl_pipuck_ext_models.h"
+#include "qtopengl_pipuck_ext_model.h"
 
 #include <argos3/core/utility/datatypes/color.h>
 #include <argos3/core/utility/math/vector2.h>
