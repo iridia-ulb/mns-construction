@@ -8,9 +8,9 @@ As with the rest of ARGoS, compilation uses CMake. The following commands clone 
 
 ```sh
 # clone this repository
-git clone https://github.com/iridia-ulb/argos3-pipuck-ext.git
+git clone https://github.com/iridia-ulb/mns-construction.git
 # compile
-cd argos3-pipuck-ext
+cd mns-construction
 mkdir build
 cd build
 cmake ../src
